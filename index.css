@@ -1,1 +1,159 @@
-/* Your CSS goes here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header  {
+    background-color: 454f6f;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section_one {
+
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255,255,255);
+    background-color: e6834c;
+    padding: 40px;
+    line-height: 2;
+
+    
+    
+
+
+
+    fisrt_2 { 
+            display: flex;
+    }
+        width: 90%;
+        margin: auto;
+    }
+    .second_2{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    .text_box-one{
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+    }
+    .text_box-two{
+        width: 80%;
+        padding: 20px;
+        text-align: justify;
+    }
+    .text_box-tree{
+        width: 80%;
+        padding: 20px;
+        text-align: justify;
+    }
+    .text_box-four{
+        width: 80%;
+        padding: 20px;
+        text-align: justify;
+    }
+   
+
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+}
+
+
+nav a {
+
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 18px;
+    color: rgb(255,255,255)
+    
+} 
+
+footer{ 
+    background-color: 454f6f;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+   
+
+}
+
+Footer nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-bottom: 5px; 
+
+
+}
+
+.ourdiv {
+
+    text-align: center;
+    background-color: e6834c;
+    padding: 20px;
+
+}
+
+
+.section_div {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.section {
+    margin-left: 30px;
+    margin-top: 20px;
+     
+
+}
